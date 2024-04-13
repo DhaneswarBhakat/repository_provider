@@ -4,7 +4,7 @@ sealed class UserState {}
 
 final class UserInitial extends UserState {}
 
-final class UserLoading extends UserState {}
+final class UserLoadingState extends UserState {}
 
 final class UserSucessState extends UserState {
   final UserModel userModel;
